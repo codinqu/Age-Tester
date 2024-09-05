@@ -1,0 +1,27 @@
+
+body {
+    background: rgb(173,153,205);
+    background: linear-gradient(90deg, rgba(173,153,205,1) 0%, rgba(255,135,176,1) 100%);
+}
+
+.titleHead h1 {
+    text-align: center;
+    padding-top: 95px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 50px;
+}
+
+.inputBox {
+    text-align: center;
+    padding-top: 95px;
+    font-size: 22px;
+}
+
+label {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.inputBox button {
+    font-family: "Pixelify Sans", sans-serif;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}

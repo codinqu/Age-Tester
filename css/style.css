@@ -1,27 +1,75 @@
 
 body {
-    background: rgb(173,153,205);
-    background: linear-gradient(90deg, rgba(173,153,205,1) 0%, rgba(255,135,176,1) 100%);
+    background: rgb(252, 169, 45);
+    background: linear-gradient(90deg, rgb(250, 175, 55) 0%, rgba(255,135,176,1) 100%);
 }
 
 .titleHead h1 {
     text-align: center;
     padding-top: 95px;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 50px;
+    font-size: 55px;
+    color: #854ceb;
+    text-shadow: 2px -2px #45d5c9;
 }
 
 .inputBox {
     text-align: center;
-    padding-top: 95px;
-    font-size: 22px;
+    padding-top: 66px;
+    font-size: 27px;
+}
+
+#inputDOB {
+    background-color: #cdff9b;
 }
 
 label {
     font-family: "Pixelify Sans", sans-serif;
+    color: rgb(209 28 202);
+    text-shadow: -3px 3px 3px #03f735;
 }
 
-.inputBox button {
+#bDay {
+    font-size: 30px;
+}
+
+
+.image-Gif img {
+    height: 344px;
+    padding-top: 52px;
+}
+
+/* Animation property */
+.inputBox button{
+    animation: wiggle 2.5s linear infinite;
     font-family: "Pixelify Sans", sans-serif;
     box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-}
+    background-color: #fcd8e2f0;
+    text-shadow: -3px 2px 3px #fe5bcc;
+    color: #f80d82;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 5% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
